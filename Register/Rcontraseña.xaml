@@ -1,0 +1,14 @@
+﻿<Window x:Class="Register.Rcontraseña"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Register"
+        mc:Ignorable="d"
+        Title="Rcontraseña" Height="450" Width="800">
+    <Grid Background="#FFDCC9C9">
+        <DataGrid x:Name="dataGridUsuarios" AutoGenerateColumns="True" CanUserAddRows="False" CanUserDeleteRows="False" SelectionChanged="dataGridUsuarios_SelectionChanged" Margin="12,0,10,143" Background="#FFE8B2DE"/>
+        <Image HorizontalAlignment="Left" Height="119" Margin="294,296,0,0" VerticalAlignment="Top" Width="216" Source="/logousuario.jpg"/>
+
+    </Grid>
+</Window>

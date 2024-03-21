@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="descarga.png" />
+    <None Remove="images.jpg" />
+    <None Remove="letter-y-logo-with-creative-gradient-swooshes-creative-elegant-letter-y-with-colorful-icon-vector.jpg" />
+    <None Remove="logousuario.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="descarga.png" />
+    <Resource Include="images.jpg" />
+    <Resource Include="letter-y-logo-with-creative-gradient-swooshes-creative-elegant-letter-y-with-colorful-icon-vector.jpg" />
+    <Resource Include="logousuario.jpg" />
+  </ItemGroup>
+
+</Project>

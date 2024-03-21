@@ -1,0 +1,13 @@
+﻿<Window x:Class="Register.Pagina1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Register"
+        mc:Ignorable="d"
+        Title="Pagina1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Bienvenido , Buen trabajo sigue asi " HorizontalAlignment="Left" Height="46" Margin="272,41,0,0" VerticalAlignment="Top" Width="356" FontFamily="Times New Roman" FontSize="16"/>
+        <Image HorizontalAlignment="Left" Height="308" Margin="260,87,0,0" VerticalAlignment="Top" Width="233" Source="/images.jpg"/>
+    </Grid>
+</Window>
